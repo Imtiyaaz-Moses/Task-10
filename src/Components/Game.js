@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 const PlayerCard = ({ color, symbol }) => {
     const style = {
         backgroundColor: color,
-        backgroundImage: "url(./img/" + symbol + ".png)"
+        backgroundImage: "url(./" + symbol + ".png)"
     }
     return (
         <div style  = {style} className="player-card">
