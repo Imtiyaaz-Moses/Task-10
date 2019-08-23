@@ -1,0 +1,31 @@
+/* The background colour of the header will be Light Sea Green, the header will be at a height of 45 pixels, items will be justified to the center,
+the font size will be 20 pixels with a font colour of Sea Green. */
+.App-header {
+    background-color: #20B2AA;
+    min-height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #2E8B57;
+}
+
+/* The text will be centerly aligned, with a font colour of Forest Green. The font-family will be san-serif, with a background colour of Mint Cream. 
+The text will also be bold. The font size will be 20 pixels. */
+#menuit {
+    text-align: center;
+    color: #228B22;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: #F5FFFA;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+/* The text will be centerly aligned, the font will be from the san-serif family and will be 17 pixels small. */
+.App-land {
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 17px;
+    background-color: #FFDAB9;
+}

@@ -1,0 +1,61 @@
+/* The border colour will be Light Sea Green, it will be 5 pixels thick and solid. The background colour will be Peach Puff. The font colour will be Forest Green.
+ The margin will be 1 pixel, with a font family of sans serif. */
+body {
+    border: 5px solid #20B2AA;
+    margin: 1px auto;
+    justify-content: space-evenly;
+    background-color: #FFDAB9;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #228B22;
+}
+
+/* The border colour will be Light Sea Green, it will be 3 pixels thick and solid. The background colour will be Peach Puff. The width and 
+ height will be 30 root em's. The margin will be 1.25 root em with a line height of 12.5 root em. The border radius will be 50%, and text
+ will be centerly aligned. The font size will be 17 pixels. The position will be relative and displayed in-line blocked. The opacity will be 1. */
+.player-card {
+    width: 30rem;
+    height: 30rem;
+    margin: 1.25rem;
+    border-radius: 50%;
+    background-color: #FFDAB9;
+    text-align: center;
+    font-size: 17px;
+    line-height: 12.5rem;
+    position: relative;
+    display: inline-block;
+    border: 3px solid #20B2AA;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* The border colour will be Light Sea Green, it will be 2 pixels thick and solid. The font colour will be Forest Green. 
+ The margin will be 1.25 root em with a pointer for the cursor. The display will be block, with no outline. Padding will be 1 root em.
+ The font will be bold and centerly aligned. */
+button {
+    width: 25rem;
+    border: 2px solid #20B2AA;
+    margin: 1.25rem auto;
+    cursor: pointer;
+    display: block;
+    outline: none;
+    padding: 1rem;
+    color: #228B22;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* The background colour of the button will be Misty Rose, and will take 200 milliseconds to ease out of the hover. */
+button:hover {
+    background-color: #FFE4E1;
+    transition: all 200ms ease-out;
+}
+
+/* The text colour will be Dodger Blue, with a font size of 20 pixels. It will bold and centerly aligned. The min height will be 3.75 root em. */
+p {
+    color: #1E90FF;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    min-height: 3.75rem;
+}
